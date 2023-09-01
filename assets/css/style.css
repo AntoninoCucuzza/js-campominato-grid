@@ -20,10 +20,13 @@ body{
 
 .bg_active{
 background-color: #07575B ;
+color: #07575B ;
+border: #07575B;
+
 }
 
 
-.container{
+.container_field{
     display: flex;
     flex-wrap: wrap;
     width: 80% ;
@@ -32,3 +35,15 @@ background-color: #07575B ;
     margin-top: 3rem;
 }
 
+.container{
+    width: 80% ;
+    max-width: 1080px;
+    margin: 0 auto ;
+    margin-top: 3rem;
+
+}
+
+.btn{
+    width: 100px;
+    height: 75px;
+}
